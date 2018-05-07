@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CB0C5120A06B7F008FD480 /* test4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C4F20A06B7F008FD480 /* test4.cpp */; };
+		D0CB0C5420A06D70008FD480 /* test5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C5220A06D70008FD480 /* test5.cpp */; };
+		D0CB0C5720A06E4A008FD480 /* test6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C5520A06E4A008FD480 /* test6.cpp */; };
+		D0CB0C5A20A0712A008FD480 /* test7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C5820A0712A008FD480 /* test7.cpp */; };
+		D0CB0C6020A074EC008FD480 /* tvl1_optical_flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C5F20A074EC008FD480 /* tvl1_optical_flow.cpp */; };
+		D0CB0C6220A075CD008FD480 /* lkdemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB0C6120A075CD008FD480 /* lkdemo.cpp */; };
 		D0DD2AE320A0112600DDD29A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DD2AE220A0112600DDD29A /* main.cpp */; };
 		D0DD2AEA20A011F300DDD29A /* libmp3lame.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DD2AE920A011F300DDD29A /* libmp3lame.0.dylib */; };
 		D0DD2AFC20A0121800DDD29A /* libopencv_stitching.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DD2AEB20A0121700DDD29A /* libopencv_stitching.3.4.1.dylib */; };
@@ -44,6 +50,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0CB0C4F20A06B7F008FD480 /* test4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test4.cpp; sourceTree = "<group>"; };
+		D0CB0C5220A06D70008FD480 /* test5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test5.cpp; sourceTree = "<group>"; };
+		D0CB0C5520A06E4A008FD480 /* test6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test6.cpp; sourceTree = "<group>"; };
+		D0CB0C5820A0712A008FD480 /* test7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test7.cpp; sourceTree = "<group>"; };
+		D0CB0C5E20A073C2008FD480 /* camshiftdemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camshiftdemo.cpp; sourceTree = "<group>"; };
+		D0CB0C5F20A074EC008FD480 /* tvl1_optical_flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tvl1_optical_flow.cpp; path = "../../../../opencv-3.4.1/samples/cpp/tvl1_optical_flow.cpp"; sourceTree = "<group>"; };
+		D0CB0C6120A075CD008FD480 /* lkdemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lkdemo.cpp; path = "../../../../opencv-3.4.1/samples/cpp/lkdemo.cpp"; sourceTree = "<group>"; };
+		D0CB0C6620A076E5008FD480 /* objectDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objectDetection.cpp; sourceTree = "<group>"; };
+		D0CB0C6720A0772D008FD480 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = haarcascade_eye_tree_eyeglasses.xml; path = "../../../../opencv-3.4.1/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"; sourceTree = "<group>"; };
+		D0CB0C6820A07742008FD480 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt.xml; path = "../../../../opencv-3.4.1/data/haarcascades/haarcascade_frontalface_alt.xml"; sourceTree = "<group>"; };
 		D0DD2ADF20A0112600DDD29A /* opencv_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DD2AE220A0112600DDD29A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D0DD2AE920A011F300DDD29A /* libmp3lame.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmp3lame.0.dylib; path = ../../../../../usr/local/Cellar/lame/3.100/lib/libmp3lame.0.dylib; sourceTree = "<group>"; };
@@ -98,6 +114,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0CB0C5D20A073B5008FD480 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB0C6120A075CD008FD480 /* lkdemo.cpp */,
+				D0CB0C5F20A074EC008FD480 /* tvl1_optical_flow.cpp */,
+				D0CB0C5E20A073C2008FD480 /* camshiftdemo.cpp */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+		D0CB0C6320A076D2008FD480 /* face */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB0C6820A07742008FD480 /* haarcascade_frontalface_alt.xml */,
+				D0CB0C6720A0772D008FD480 /* haarcascade_eye_tree_eyeglasses.xml */,
+				D0CB0C6620A076E5008FD480 /* objectDetection.cpp */,
+			);
+			path = face;
+			sourceTree = "<group>";
+		};
 		D0DD2AD620A0112600DDD29A = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +171,16 @@
 		D0DD2AE120A0112600DDD29A /* opencv_test */ = {
 			isa = PBXGroup;
 			children = (
+				D0CB0C6320A076D2008FD480 /* face */,
+				D0CB0C5D20A073B5008FD480 /* sample */,
 				D0DD2AE220A0112600DDD29A /* main.cpp */,
 				D0DD2B0D20A019A300DDD29A /* test1.cpp */,
 				D0DD2B1020A01D0200DDD29A /* test2.cpp */,
 				D0DD2B1320A0222200DDD29A /* test3.cpp */,
+				D0CB0C4F20A06B7F008FD480 /* test4.cpp */,
+				D0CB0C5220A06D70008FD480 /* test5.cpp */,
+				D0CB0C5520A06E4A008FD480 /* test6.cpp */,
+				D0CB0C5820A0712A008FD480 /* test7.cpp */,
 			);
 			path = opencv_test;
 			sourceTree = "<group>";
@@ -199,10 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CB0C5120A06B7F008FD480 /* test4.cpp in Sources */,
+				D0CB0C6020A074EC008FD480 /* tvl1_optical_flow.cpp in Sources */,
+				D0CB0C5A20A0712A008FD480 /* test7.cpp in Sources */,
+				D0CB0C5720A06E4A008FD480 /* test6.cpp in Sources */,
 				D0DD2AE320A0112600DDD29A /* main.cpp in Sources */,
 				D0DD2B1520A0222200DDD29A /* test3.cpp in Sources */,
 				D0DD2B0F20A019A300DDD29A /* test1.cpp in Sources */,
 				D0DD2B1220A01D0200DDD29A /* test2.cpp in Sources */,
+				D0CB0C5420A06D70008FD480 /* test5.cpp in Sources */,
+				D0CB0C6220A075CD008FD480 /* lkdemo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

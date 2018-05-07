@@ -6,15 +6,15 @@
 //  Copyright © 2018年 屈贤. All rights reserved.
 //
 
-#include <iostream>
-#include <opencv2/opencv.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>//图像处理头文件
-#include <fstream>
-using namespace std;
-using namespace cv;
-
-#define BYTE unsigned char
+//#include <iostream>
+//#include <opencv2/opencv.hpp>
+//#include <opencv2/highgui/highgui.hpp>
+//#include <opencv2/imgproc/imgproc.hpp>//图像处理头文件
+//#include <fstream>
+//using namespace std;
+//using namespace cv;
+//
+//#define BYTE unsigned char
 
 //腐蚀操作
 //int main(int argc, const char * argv[])
